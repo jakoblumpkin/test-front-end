@@ -1,7 +1,6 @@
 import React from 'react';
-
+import './app.css';
 import axios from 'axios';
-
 import AddNewItem from './components/add-item.js';
 import Items from './components/items.js';
 
@@ -47,7 +46,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Our Items</h1>
+        <h1 id='headingTitle'>Our Items</h1>
         <AddNewItem handleAddItem={this.addItem} />
         <hr />
         <Items handleUpdate={this.updateItem} handleDelete={this.deleteItem} itemsList={this.state.items} />

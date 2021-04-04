@@ -1,0 +1,74 @@
+@keyframes changeColor {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@keyframes rotate {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(4deg);;}
+}
+
+#headingTitle {
+  background-color: #FFFAF0;
+  margin-left: 40%;
+  animation: changeColor 4s ease-in alternate;
+}
+
+
+#theFrom {
+  display: flex;
+  margin-top: 5%;
+}
+
+#theFrom label{
+  font-family: 'Kiwi Maru', serif;
+  margin-left: 3%;
+}
+
+#theFrom div{
+  margin-left: 3%;
+}
+
+
+#theFrom button {
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 1%;
+}
+
+#outBox {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card1 {
+  display: inline;
+  width: 20%;
+  grid-template-columns: 1fr 1fr 1fr;
+  animation: changeColor 2s ease-in alternate;
+}
+
+
+#deleteB {
+  width: 55%;
+  margin-left: 20%;
+  margin-top: 6%;
+
+}
+
+#updateB {
+  width: 55%;
+  margin-left: 20%;
+  margin-top: 6%;
+
+}
+#root {
+  background-color: #FFFAF0;
+}
+h1 {
+  font-family: 'Kiwi Maru', serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
